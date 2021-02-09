@@ -1,0 +1,39 @@
+{
+    "projectId": "5nxbg2",
+    "reporter": "mochawesome",
+    "reporterOptions":{
+        "reportdir": "cypress/reports/report",
+        "overwrite": true,
+        "html": true,
+        "json": false,
+        "timestamp": "mmddyyyy_HHMMss"
+    },
+    "baseUrl": "http://automationpractice.com/index.php",
+    "defaultCommandTimeout": 5000,
+    "requestTimeout": 5000,
+    "chromeWebSecurity": false,
+    "modifyObstructiveCode": true,
+    "experimentalSourceRewriting": true,
+    "env": {
+        "apiKey": "befa40e295be1f088849461ca16ec32481b0bd4462e2871d633267a3d8223b9f",
+        "prestaCookie": "PrestaShop-a30a9934ef476d11b6cc3c983616e364",
+        "loginUrl": "http://automationpractice.com/index.php?controller=authentication&back=my-account",
+        "accountUrl": "http://automationpractice.com/index.php?controller=my-account",
+        "accountCreationUrl": "http://automationpractice.com/index.php?controller=authentication&back=my-account#account-creation",
+        "cartUrl": "http://automationpractice.com/index.php?controller=order",
+        "ordersUrl": "http://automationpractice.com/index.php?controller=history",
+        "creditSlipsUrl": "http://automationpractice.com/index.php?controller=order-slip",
+        "addressUrl": "http://automationpractice.com/index.php?controller=addresses",
+        "identityUrl": "http://automationpractice.com/index.php?controller=identity",
+        "specialsUrl": "http://automationpractice.com/index.php?controller=prices-drop",
+        "newProductsUrl": "http://automationpractice.com/index.php?controller=new-products",
+        "bestsellerUrl": "http://automationpractice.com/index.php?controller=best-sales",
+        "storesUrl": "http://automationpractice.com/index.php?controller=stores",
+        "contactUsUrl": "http://automationpractice.com/index.php?controller=contact",
+        "policyUrl": "http://automationpractice.com/index.php?id_cms=3&controller=cms",
+        "aboutUsUrl": "http://automationpractice.com/index.php?id_cms=4&controller=cms",
+        "siteMapUrl": "http://automationpractice.com/index.php?controller=sitemap",
+        "womenUrl": "http://automationpractice.com/index.php?id_category=3&controller=category",
+        "signInUrl": "http://automationpractice.com/index.php?controller=authentication"
+    }
+}

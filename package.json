@@ -1,0 +1,23 @@
+{
+  "name": "projekt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^6.1.0"
+  },
+  "dependencies": {
+    "cypress-file-upload": "^4.1.1",
+    "jquery": "^3.5.1",
+    "mailslurp-client": "^10.0.4",
+    "mocha": "^8.2.1",
+    "mochawesome": "^6.2.1",
+    "mochawesome-merge": "^4.2.0"
+  }
+}
